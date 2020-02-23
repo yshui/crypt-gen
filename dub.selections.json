@@ -1,0 +1,9 @@
+{
+	"fileVersion": 1,
+	"versions": {
+		"mustache-d": "0.1.4",
+		"sdlang-d": "0.10.5",
+		"taggedalgebraic": "0.11.9",
+		"unit-threaded": "0.7.55"
+	}
+}

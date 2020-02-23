@@ -1,0 +1,12 @@
+name "crypt-gen"
+description "cryptsetup systemd-generator"
+authors "shui"
+copyright "Copyright © 2020, shui"
+license "proprietary"
+dependency "sdlang-d" version="~>0.10.5"
+dependency "mustache-d" version="~>0.1.4"
+stringImportPaths "source"
+buildType "small" {
+    buildOptions "releaseMode"
+    dflags "-Os" platform="ldc"
+}
